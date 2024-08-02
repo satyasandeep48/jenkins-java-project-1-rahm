@@ -7,10 +7,7 @@
 	<version>8.3.2-SNAPSHOT</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-	
-	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-	</properties>	
+
 	
 	<properties>
            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

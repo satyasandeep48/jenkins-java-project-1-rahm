@@ -32,7 +32,7 @@
 		<repository>
                    <id>central</id>
                    <name>0e1efcaf0ed7-releases</name>
-                   <url>http://3.80.36.141:8081/artifactory/git-frog</url>
+                   <url>http://3.80.36.141:8082/artifactory/git-frog</url>
                 </repository>
   	</distributionManagement>
 	

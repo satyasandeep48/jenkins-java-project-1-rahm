@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('checkout') {
+            steps {
+                git 'https://github.com/satyasandeep48/jenkins-java-project-1-rahm.git' 
+            }
+        }
+        stage('compile') {
+            steps {
+                sh "mvn clean"
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'mvn install -DskipTests '
+            }
+        }
+        stage('artifact') {
+            steps {
+                sh 'touch file1'
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 	</properties>	
+	
 	<properties>
            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         </properties>
